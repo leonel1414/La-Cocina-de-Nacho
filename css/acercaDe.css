@@ -1,7 +1,28 @@
-#imagenReceta
+#historia{
+    margin-bottom: 30px;
+}
+#imagenRestaurant
 {
     border: 5px dashed #484349;    
     padding: 0% 0%;
     width: 60%;
-    align-items: center;
+}
+#pieDeImagen{
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+}
+
+/* BreakPoint*/
+@media(max-width: 768px) {
+    #imagenRestaurant{
+       width: 100%;
+    }
+}
+
+/* BreakPoint*/
+@media(max-width: 576px) {
+    #imagenRestaurant{
+       width: 100%;
+    }
 }

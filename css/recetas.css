@@ -18,6 +18,11 @@
     #imagenReceta{
        width: 70%;
     }
+}
 
-
+/* BreakPoint*/
+@media(max-width: 576px) {
+    #imagenReceta{
+       width: 70%;
+    }
 }
