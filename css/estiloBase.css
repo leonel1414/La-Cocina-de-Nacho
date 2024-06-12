@@ -1,0 +1,68 @@
+#fondo
+{
+    background-color: #F7F0F0;
+}
+
+h1
+{
+    font-size: 140%;    
+}
+
+.barraDivisoria
+{    
+    color: #F7F0F0;
+    text-align: center;
+    padding: 12px 0%;
+}
+
+#barraDivisoriaSuperior
+{
+    background-color: #34602E;
+}
+
+#barraDivisoriaInferior
+{
+    background-color: #CC0000;
+}
+
+
+.container
+{
+    display: grid;
+    place-items: center;
+    text-align: center;             
+}
+
+article
+{
+    display: grid;
+    padding: 0% 15%;
+    font-size: 100%;
+}
+
+.icon
+{
+    width: 20px;
+    height: 20px;
+}
+
+#barraNavegacion
+{
+    padding: 0%;
+}
+
+
+#imagenCentrada
+{
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: center;
+}
+
+#botonInicio
+{
+    background-color: #484349;    
+    border: 2px solid black;
+    width: 25%;
+    font-size: 110%;
+}

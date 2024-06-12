@@ -1,0 +1,23 @@
+#imagenTacos
+{
+    border: 5px dashed #484349;    
+    padding: 0% 0%;
+    width: 83%;
+}
+
+
+#imagenReceta
+{
+    border: 5px dashed #484349;    
+    padding: 0% 0%;
+    width: 60%;
+    align-items: center;
+}
+
+#botonInicio
+{
+    background-color: #484349;    
+    border: 2px solid black;
+    width: 25%;
+    font-size: 110%;
+}

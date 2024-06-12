@@ -1,0 +1,23 @@
+#imagenReceta
+{
+    border: 5px dashed #484349;    
+    padding: 0% 0%;
+    margin-bottom: 15px;
+    width: 50%;
+    align-items: center;
+}
+.piolin{
+    margin-bottom: 15px;
+}
+#ingredientes{
+    margin-bottom: 15px;
+}
+
+/* BreakPoint*/
+@media(max-width: 768px) {
+    #imagenReceta{
+       width: 70%;
+    }
+
+
+}
