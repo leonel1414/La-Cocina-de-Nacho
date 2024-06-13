@@ -1,3 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+}
+.navbar .nav-links {
+    display: flex;
+}
+.navbar .nav-links a {
+    margin-left: 15px;
+}
+.navbar .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.navbar .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
 #fondo
 {
     background-color: #F7F0F0;
@@ -64,4 +94,17 @@ article
     border: 2px solid black;
     width: 25%;
     font-size: 110%;
+}
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .nav-links.active {
+        display: flex;
+    }
+    .navbar .hamburger {
+        display: flex;
+    }
 }
