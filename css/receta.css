@@ -1,0 +1,30 @@
+#imagenReceta
+{
+    border: 5px dashed #484349;    
+    padding: 0% 0%;
+    margin-bottom: 25px;
+    width: 50%;
+    align-items: center;
+}
+.espaciado
+{
+    margin-bottom: 20px;
+}
+
+/* BreakPoint*/
+@media(max-width: 768px)
+{
+    #imagenReceta
+    {
+        width: 70%;
+    }
+}
+
+/* BreakPoint*/
+@media(max-width: 576px)
+{
+    #imagenReceta
+    {
+        width: 70%;
+    }
+}
