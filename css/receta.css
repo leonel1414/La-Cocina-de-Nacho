@@ -11,6 +11,12 @@
     margin-bottom: 20px;
 }
 
+#espacioBoton
+{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 /* BreakPoint*/
 @media(max-width: 768px)
 {

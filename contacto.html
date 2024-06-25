@@ -18,10 +18,10 @@
                     <div></div>
                 </div>
                 <div class="nav-links" id="navbarNav">
-                    <a class="nav-link" href="/acercaDe.html">| Acerda de |</a>                              
-                    <a class="nav-link" href="contacto.html">| Contacto |</a>
-                    <a class="nav-link" href="sucursales.html">| Sucursales |</a>
-                    <a class="nav-link" href="registro.html">| Registarse |</a>
+                    <a class="nav-link" href="/acercaDe.html">Acerda de</a>                              
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="sucursales.html">Sucursales</a>
+                    <a class="nav-link" href="registro.html">Registarse</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,30 +32,32 @@
         <div class="barraDivisoria" id="barraDivisoriaSuperior">
             <h1>Contacto</h1>
         </div>             
-        <article>
-
-            <h3><u>¿Dudas, sugerencias o reclamos? Llene el formulario y contactenos!</u></h3>      
-            <div class="container">
-                <div class="row">                
-                    <div class="col-sm-12" id="formularioContacto">
-                        <form action="">                     
-                            <label for="nombre">Nombre:</label>
-                            <input id="nombre" type="text" name="nombre" placeholder="nombre" required>
-                            
-                            <label for="asunto">Asunto:</label>
-                            <input id="asunto" type="text" name="asunto" placeholder="motivo">
-
-                            <label for="email">Correo electrónico:</label>
-                            <input id="email" type="email" name="email" placeholder="tu_email@gmail.com" required>
-                            
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea id="mensaje" name="mensaje" rows="10" cols="50" placeholder="escriba aquí" required></textarea>                            
-                            
-                            <input type="submit">
-                        </form>
-                    </div>
-                </div>            
-                
+        <article>            
+            <h3 class="espaciado"><u>¿Dudas, sugerencias o reclamos? Llene el formulario y contactenos!</u></h3>      
+            <div class="container espaciado" id="formularioContacto">                
+                <div class="row">
+                    <form action="" id="estiloForm">                     
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="nombre"><b>Nombre:</b></label>
+                            <input id="nombre" class="inputAmpliado" type="text" name="nombre" placeholder="nombre" required>
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="asunto"><b>Asunto:</b></label>
+                            <input id="asunto"class="inputAmpliado" type="text" name="asunto" placeholder="motivo">
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="email"><b>Correo electrónico:</b></label>
+                            <input id="email" class="inputAmpliado" type="email" name="email" placeholder="tu_email@gmail.com" required>
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="mensaje"><b>Mensaje:</b></label>
+                        </div>                        
+                        <div class="col-sm-12 espacioFormulario">                            
+                            <textarea id="mensaje" name="mensaje" rows="10" cols="55" placeholder="escriba aquí" required></textarea>                            
+                        </div>                        
+                        <input type="submit" class="btn btn-primary" id="botonEnviar">
+                    </form>                
+                </div>                            
             </div>
             <div class="container espaciado">
                 <button type="button" id="botonInicio" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" onclick="window.location.href = 'index.html'">
