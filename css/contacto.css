@@ -43,8 +43,7 @@
 {
     #formularioContacto
     {
-        width: 50%;
-        background-size: cover;
+        width: 100%;
     }
 }
 
@@ -52,8 +51,16 @@
 {
     #formularioContacto
     {
-        width: 20%;
-        background-size: cover;
+        width: 90%;
     }
+    .inputAmpliado
+{
+    width: 250px;
+    height: 25px;
+}
+    textarea{
+        width: 95%;
+    }
+
 }
 
