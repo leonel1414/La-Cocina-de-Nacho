@@ -5,6 +5,7 @@
     background-color: #f8f9fa;
     padding: 10px 20px;
 }
+
 .navbar a {
     text-decoration: none;
     color: #333;
@@ -26,6 +27,11 @@
     height: 3px;
     background-color: #333;
     margin: 5px 0;
+}
+
+.selector:hover
+{
+    background-color: darkgray;
 }
 
 #fondo
