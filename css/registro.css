@@ -5,7 +5,36 @@
 
 #formularioRegistro
 {
-    background-color: azure;
-    text-align: center;    
+    border: 6px ridge black;
+    background-image: url('/images/sombreroYsalsasjpg.jpg');
+    background-size: cover;
+    text-align: left;    
     
+}
+
+#estiloForm
+{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 18px;
+    
+}
+
+#botonEnviar
+{
+    background-color: cadetblue;
+    margin-bottom: 20px;        
+}
+
+.espacioFormulario
+{
+    margin-bottom: 20px;
+}
+
+.inputAmpliado
+{
+    width: 300px;
+    height: 30px;
 }

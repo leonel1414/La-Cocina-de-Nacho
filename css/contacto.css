@@ -35,8 +35,7 @@
 #botonEnviar
 {
     background-color: brown;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;        
 }
 
 @media(max-width: 768px)
@@ -54,11 +53,12 @@
         width: 90%;
     }
     .inputAmpliado
-{
-    width: 250px;
-    height: 25px;
-}
-    textarea{
+    {
+        width: 250px;
+        height: 25px;
+    }
+    textarea
+    {
         width: 95%;
     }
 

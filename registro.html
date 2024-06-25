@@ -34,42 +34,47 @@
         </div>             
         <article>
 
-            <h3><u>Formulario de registro:</u></h3>      
-            <div class="" id="formularioRegistro">
+            <h3 class="espaciado"><u>Formulario de registro:</u></h3>      
+            <div class="container espaciado" id="formularioRegistro">
                 <div class="row">                
-                    <div class="col-sm-12">
-                        <form action="">         
-
-                            <label for="nombre">Nombre:</label>
-                            <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" required>
-                            
-                            <label for="apellido">Apellido:</label>
-                            <input id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido" required>
-
-                            <label for="fechaNacimiento">Fecha de nacimiento:</label>
-                            <input id="fechaNacimiento" name="fechaNacimiento" type="date" required>
-
-                            <label for="domicilio">Domicilio:</label>
-                            <input id="domicilio" type="text" name="domicilio" placeholder="Ingrese su dirección" required>
-
-                            <label for="ciudad">Ciudad:</label>
-                            <input id="ciudad" type="text" name="ciudad" placeholder="Ingrese la ciudad donde vive" required>
-                            
-                            <label for="codigoPostal">Código postal:</label>
-                            <input id="codigoPostal" type="text" name="codigoPostal" placeholder="Ingrese su código postal" pattern="[0-9]{4,6}" maxlength="6" required>
-
-                            <label for="email">Correo electrónico:</label>
-                            <input id="email" type="email" name="email" placeholder="tu_email@gmail.com" required>
-
-                            <label>
+                    <form action="" id="estiloForm">         
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="nombre"><b>Nombre:</b></label>
+                            <input id="nombre" class="inputAmpliado" type="text" name="nombre" placeholder="Ingrese su nombre" required>                    
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="apellido"><b>Apellido:</b></label>
+                            <input id="apellido" class="inputAmpliado" type="text" name="apellido" placeholder="Ingrese su apellido" required>                            
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="fechaNacimiento"><b>Fecha de nacimiento:</b></label>
+                            <input id="fechaNacimiento" name="fechaNacimiento" type="date" required>                            
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="domicilio"><b>Domicilio:</b></label>
+                            <input id="domicilio" class="inputAmpliado" type="text" name="domicilio" placeholder="Ingrese su dirección" required>                            
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="ciudad"><b>Ciudad:</b></label>
+                            <input id="ciudad" class="inputAmpliado" type="text" name="ciudad" placeholder="Ingrese la ciudad donde vive" required>                            
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="codigoPostal"><b>Código postal:</b></label>
+                            <input id="codigoPostal" type="text" name="codigoPostal" placeholder="Ingrese su código postal" pattern="[0-9]{4,6}" maxlength="6" required>                            
+                        </div>
+                        <div class="col-sm-12 espacioFormulario">
+                            <label for="email"><b>Correo electrónico:</b></label>
+                            <input id="email" type="email" name="email" placeholder="tu_email@gmail.com" required>                            
+                        </div>
+                        <div class="col-sm-12 espaciado">
+                            <label><b>Genero:</b>
                                 <input type="radio" name="genero" value="masculino"> Masculino
                                 <input type="radio" name="genero" value="femenino"> Femenino
                                 <input type="radio" name="genero" value="otro"> Otro
-                            </label>                        
-                            
-                            <input type="submit">
-                        </form>
-                    </div>
+                            </label>                                                    
+                        </div>                        
+                        <input type="submit" class="btn btn-primary" id="botonEnviar">
+                    </form>                    
                 </div>            
                 
             </div>
